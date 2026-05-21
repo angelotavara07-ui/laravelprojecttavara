@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('nombre_curso');
             $table->integer('creditos');
             $table->string('descripcion')->nullable();
+            $table->string('foto')->nullable();
             $table->timestamps();
         });
     }
